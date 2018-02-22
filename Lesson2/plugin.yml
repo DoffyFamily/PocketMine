@@ -1,0 +1,15 @@
+name: FirstCommand
+main: doffy\MainClass
+api: ["3.0.0-ALPHA11"]
+version: 1.0
+author: doffy
+website: vk.com/doffy_pe
+commands:                                  #Блок команд
+  first:                                   #Команда
+    description: "Первая команда"          #Описание команды
+    permission: "first.command"            #Право на использование команды(не обязательно)
+
+permissions:                               #Блок прав на команды
+  first.command:                           #Право
+    default: false                         #По умолчанию: true - команду могут использовать все, false - только у кого есть право
+    description: "Право на команду /first" #Опиание права на команду
