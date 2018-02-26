@@ -33,6 +33,6 @@ class MainClass extends PluginBase {
                 $sender->sendMessage("Команда /first выполнена");
             }
         }
-        return true;
+        return false;
     }
 }
