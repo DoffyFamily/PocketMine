@@ -1,0 +1,5 @@
+name: InteractEvent
+main: doffy\MainClass
+api: 3.0.0-ALPHA11
+version: 1.0
+author: doffy
