@@ -1,5 +1,5 @@
 name: ConfigExample
 main: doffy\ConfigExample
-api: 3.0.0-ALPHA11
+api: ["3.0.0-ALPHA11"]
 version: 1.0.0
 author: doffy
