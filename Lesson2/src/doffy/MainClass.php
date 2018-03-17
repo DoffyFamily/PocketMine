@@ -11,7 +11,7 @@ use pocketmine\plugin\PluginBase;
 
 class MainClass extends PluginBase {
 
-    public function onEnable() {
+    public function onEnable(): void {
         $this->getLogger()->info("Плагин включен");
     }
 
@@ -33,6 +33,6 @@ class MainClass extends PluginBase {
                 $sender->sendMessage("Команда /first выполнена");
             }
         }
-        return false;
+        return true;
     }
 }
