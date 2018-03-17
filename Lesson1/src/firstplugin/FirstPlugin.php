@@ -8,15 +8,15 @@ use pocketmine\plugin\PluginBase;
 
 class FirstPlugin extends PluginBase{
 
-    public function onEnable(){
+    public function onEnable(): void {
         $this->getLogger()->info("Плагин успешно загружен");
     }
 
-    public function onLoad(){
+    public function onLoad(): void {
         $this->getLogger()->info("Плагин загружается");
     }
 
-    public function onDisable(){
+    public function onDisable(): void {
         $this->getLogger()->info("Плагин выключен");
     }
 
