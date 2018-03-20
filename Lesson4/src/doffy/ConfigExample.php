@@ -61,6 +61,18 @@ class ConfigExample extends PluginBase {
         $this->config->set('массив', ['ключ' => 'значение', 'лист' => ['информация', 'еще информация']]);
         $this->config->save(true);
     }
+    
+    public function test_4(): void {
+        $this->config->setNested("items.id", 2);
+        $this->config->setNested("items.damage", 4);
+        $this->config->save(true);
+    }
+
+    public function test_5(){
+        $array = ["ключ" => "значение"];
+        $this->config->setAll($array);
+        $this->config->save(true);
+    }
 
 
 }
