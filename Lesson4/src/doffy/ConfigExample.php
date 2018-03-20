@@ -68,7 +68,7 @@ class ConfigExample extends PluginBase {
         $this->config->save(true);
     }
 
-    public function test_5(){
+    public function test_5(): void {
         $array = ["ключ" => "значение"];
         $this->config->setAll($array);
         $this->config->save(true);
